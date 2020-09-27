@@ -1,0 +1,26 @@
+<header class="todo-header">
+    
+    <div class="todo-header-nav">
+        <i class="fas fa-bars todo-header-icon"></i>
+    </div>
+        
+    <div class="todo-header-content">
+        <h2 class="todo-header-head">{{ todoHeader }}</h2>
+        <div class="todo-header-counter-box">
+            <p class="todo-counter">{{ personalTaskCounter }}</p>
+            <p class="todo-counter-description">Personal</p>
+        </div>
+        <div class="todo-header-counter-box">
+            <p class="todo-counter">{{ businessTaskCounter }}</p>
+            <p class="todo-counter-description">Business</p>
+        </div>
+    </div>
+
+    <div class="todo-header-info">
+        <div class="todo-header-info-date">
+            <p>{{ getDate() }}</p>
+        </div>
+        <div class="todo-header-info-date">
+        </div>
+    </div>
+</header>
