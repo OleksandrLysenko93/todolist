@@ -7,7 +7,7 @@ import { AppCreatorComponent } from './components/app-creator/app-creator.compon
 import { from } from 'rxjs';
 import { TodoHeaderComponent } from './components/todo-header/todo-header.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
-import { TodoListItemComponent } from './components/todo-list-item/todo-list-item';
+import { TodoListItemComponent } from './components/todo-list-item/todo-list-item.component';
 
 @NgModule({
   declarations: [

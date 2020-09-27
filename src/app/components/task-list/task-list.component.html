@@ -1,4 +1,10 @@
 <div class="todo-list-box">
     <p class="todo-list-header">Inbox</p>
-    <todo-list-item></todo-list-item>
+    <div>
+        <ng-container *ngFor="let task of taskList">
+            <todo-list-item [task]="task">
+                
+            </todo-list-item>
+        </ng-container>
+    </div>
 </div>
